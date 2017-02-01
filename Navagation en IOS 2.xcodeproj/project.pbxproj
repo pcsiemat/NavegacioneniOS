@@ -13,6 +13,8 @@
 		FB4089041E41655E00E43B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4089031E41655E00E43B47 /* Assets.xcassets */; };
 		FB4089071E41655E00E43B47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4089051E41655E00E43B47 /* LaunchScreen.storyboard */; };
 		FB40890F1E416F2500E43B47 /* NuevoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB40890E1E416F2500E43B47 /* NuevoViewController.swift */; };
+		FB4089111E417FA100E43B47 /* TerceraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4089101E417FA100E43B47 /* TerceraViewController.swift */; };
+		FB4089131E417FB800E43B47 /* CuartaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4089121E417FB800E43B47 /* CuartaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FB4089061E41655E00E43B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB4089081E41655E00E43B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB40890E1E416F2500E43B47 /* NuevoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NuevoViewController.swift; sourceTree = "<group>"; };
+		FB4089101E417FA100E43B47 /* TerceraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerceraViewController.swift; sourceTree = "<group>"; };
+		FB4089121E417FB800E43B47 /* CuartaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuartaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				FB4089051E41655E00E43B47 /* LaunchScreen.storyboard */,
 				FB4089081E41655E00E43B47 /* Info.plist */,
 				FB40890E1E416F2500E43B47 /* NuevoViewController.swift */,
+				FB4089101E417FA100E43B47 /* TerceraViewController.swift */,
+				FB4089121E417FB800E43B47 /* CuartaViewController.swift */,
 			);
 			path = "Navagation en IOS 2";
 			sourceTree = "<group>";
@@ -142,6 +148,8 @@
 				FB40890F1E416F2500E43B47 /* NuevoViewController.swift in Sources */,
 				FB4088FF1E41655E00E43B47 /* ViewController.swift in Sources */,
 				FB4088FD1E41655E00E43B47 /* AppDelegate.swift in Sources */,
+				FB4089131E417FB800E43B47 /* CuartaViewController.swift in Sources */,
+				FB4089111E417FA100E43B47 /* TerceraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

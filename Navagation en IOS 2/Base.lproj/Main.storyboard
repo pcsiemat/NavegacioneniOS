@@ -186,10 +186,10 @@
             </objects>
             <point key="canvasLocation" x="704.79999999999995" y="1586.3568215892055"/>
         </scene>
-        <!--View Controller-->
+        <!--Tercera View Controller-->
         <scene sceneID="Bu8-H0-pH4">
             <objects>
-                <viewController id="TK3-C3-7Ab" sceneMemberID="viewController">
+                <viewController id="TK3-C3-7Ab" customClass="TerceraViewController" customModule="Navagation_en_IOS_2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Uml-R3-cAL"/>
                         <viewControllerLayoutGuide type="bottom" id="CPW-B3-rIb"/>
@@ -213,19 +213,29 @@
                                     <segue destination="ZW0-2F-7vy" kind="show" id="pw4-jc-b1V"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UCq-5d-O2w">
+                                <frame key="frameInset" minX="113" minY="436" width="143" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="xKl-gL-4aq"/>
+                    <connections>
+                        <outlet property="txtParametro" destination="UCq-5d-O2w" id="Kjy-cw-xzI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BaF-gF-k5M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2412" y="1256.2218890554723"/>
         </scene>
-        <!--View Controller-->
+        <!--Cuarta View Controller-->
         <scene sceneID="5BG-B7-uV7">
             <objects>
-                <viewController id="ZW0-2F-7vy" sceneMemberID="viewController">
+                <viewController id="ZW0-2F-7vy" customClass="CuartaViewController" customModule="Navagation_en_IOS_2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mpc-nZ-YKC"/>
                         <viewControllerLayoutGuide type="bottom" id="AzR-xC-uuS"/>
@@ -241,9 +251,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJQ-NU-WYb">
+                                <frame key="frameInset" minX="143" minY="352" width="114" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="lblParametro" destination="gJQ-NU-WYb" id="pQI-Ko-5Wp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WrJ-hl-iYn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -254,9 +274,11 @@
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Khl-bA-kFd" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="eh3-VX-bfC">
+                    <tabBar key="tabBar" contentMode="scaleToFill" itemPositioning="centered" itemSpacing="30" itemWidth="50" id="eh3-VX-bfC">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="1" green="0.63945262110000001" blue="0.50716050660000001" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="jZP-c4-oUV" kind="relationship" relationship="viewControllers" id="S8w-Pu-xLj"/>
